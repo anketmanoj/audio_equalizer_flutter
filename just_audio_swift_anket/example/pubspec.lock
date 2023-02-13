@@ -110,9 +110,11 @@ packages:
   just_audio_platform_interface_anket:
     dependency: transitive
     description:
-      path: "../../just_audio_platform_interface_anket"
-      relative: true
-    source: path
+      path: just_audio_platform_interface_anket
+      ref: main
+      resolved-ref: b6f66bc60aff13f8482a3c25f6f4a794f1e8937d
+      url: "https://github.com/anketmanoj/audio_equalizer_flutter.git"
+    source: git
     version: "4.2.0"
   just_audio_swift_anket:
     dependency: "direct main"

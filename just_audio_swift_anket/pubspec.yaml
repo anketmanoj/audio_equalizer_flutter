@@ -10,7 +10,10 @@ environment:
 dependencies:
   #  just_audio_platform_interface: ^4.2.0
   just_audio_platform_interface_anket:
-    path: ../just_audio_platform_interface_anket
+    git:
+      url: https://github.com/anketmanoj/audio_equalizer_flutter.git
+      ref: main
+      path: just_audio_platform_interface_anket
   #  just_audio_web: ^0.4.4
   # just_audio_web:
   #   path: ../just_audio_web
